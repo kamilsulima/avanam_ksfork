@@ -290,8 +290,8 @@ function render_custom_logo( $option_string = '', $custom_class = 'extra-custom-
 		*/
 		$html = wp_get_attachment_image( $custom_logo_id, 'full', false, $custom_logo_attr );
 	} elseif ( is_customize_preview() ) {
-		// If no logo is set but we're in the Customizer, leave a placeholder (needed for the live preview).
-		$html = '<img class="custom-logo"/></a>';
+               // If no logo is set but we're in the Customizer, leave a placeholder (needed for the live preview).
+               $html = '<img class="custom-logo"/>';
 	}
 	/**
 	 * Filters the custom logo output.
@@ -345,8 +345,8 @@ function custom_logo( $blog_id = 0 ) {
 		*/
 		$html = wp_get_attachment_image( $custom_logo_id, 'full', false, $custom_logo_attr );
 	} elseif ( is_customize_preview() ) {
-		// If no logo is set but we're in the Customizer, leave a placeholder (needed for the live preview).
-		$html = '<img class="custom-logo"/></a>';
+               // If no logo is set but we're in the Customizer, leave a placeholder (needed for the live preview).
+               $html = '<img class="custom-logo"/>';
 	}
 
 	if ( $switched_blog ) {
