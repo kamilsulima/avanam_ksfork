@@ -32,11 +32,11 @@ Source: https://wprig.io/
 The theme uses the following third-party resources:
 
 * Splide Javascript, Naotoshi Fujita
-Splide licensed under the the MIT license.
+Splide licensed under the MIT license.
 Source: https://splidejs.com/
 
 * css-vars-ponyfill Javascript, John Hildenbiddle
-css-vars-ponyfill licensed under the the MIT license.
+css-vars-ponyfill licensed under the MIT license.
 Source: https://github.com/jhildenbiddle/css-vars-ponyfill
 
 * Feather icons, Feather.
